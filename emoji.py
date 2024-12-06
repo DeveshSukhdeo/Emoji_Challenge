@@ -12,5 +12,11 @@
 #Micah
 
 #Devesh
+        canvas.draw_circle((width/4, height/4), width/4 - 25, 10, "Yellow", "Yellow")  
+        canvas.draw_circle((width/4 - 55, height/4 - 50), 30, 1, "black", "white")   
+        canvas.draw_circle((width/4 + 55, height/4 - 50), 30, 1, "black", "white")   
+        canvas.draw_circle((width/4 - 55, height/4 - 50), 10, 1, "black", "black")  
+        canvas.draw_circle((width/4 + 55, height/4 - 50), 10, 1, "black", "black")  
+        canvas.draw_polygon([(width/4 - 100, height/4 + 30), (width/4 - 50, height/4 + 80), (width/4 + 50, height/4 + 80), (width/4 + 100, height/4 + 30)], 1, "black", "white")   
 
 #Towaf

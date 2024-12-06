@@ -28,7 +28,7 @@
         canvas.draw_polygon([(width/4 - 100, height/4 + 30), (width/4 - 50, height/4 + 80), (width/4 + 50, height/4 + 80), (width/4 + 100, height/4 + 30)], 1, "black", "white")   
 
 #Towaf - Top Right Quadrant
-        canvas.draw_circle((width/4, height/4), width/4 - 50, 10, "Yellow", "Yellow")
+        canvas.draw_circle((width/2, height/2), width/2 - 50, 10, "Yellow", "Yellow")
         canvas.draw_circle((200, 150), 50, 10, "Black")
         canvas.draw_circle((400, 150), 50, 10, "Black")
-        canvas.draw_polygon([(200, 350), (400, 350), (400, 250), (200,250)], 5, "Red")
+        canvas.draw_polygon([(200, 350), (400, 350), (400, 250), (200,250)], 5, "Red")    

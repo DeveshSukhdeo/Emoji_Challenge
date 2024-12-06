@@ -86,10 +86,10 @@ def toggle_face5():
         
 #Towaf - Top Right Quadrant
                 if face4:
-                    canvas.draw_circle((width/4, height/4), width/4 - 50, 10, "Yellow", "Yellow")
+                    canvas.draw_circle((width/2, height/2), width/4 - 25, 10, "Yellow", "Yellow")
                     canvas.draw_circle((200, 150), 50, 10, "Black")
                     canvas.draw_circle((400, 150), 50, 10, "Black")
-                    canvas.draw_polygon([(200, 350), (400, 350), (400, 250), (200,250)], 5, "Red")
+                    canvas.draw_polygon([(200, 350), (400, 350), (400, 250), (200,250)], 5, "Red")  
         
 #All 
                 if face5:

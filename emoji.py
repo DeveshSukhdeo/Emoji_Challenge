@@ -1,3 +1,8 @@
+#Syeda, Micah, Devesh, Towaf
+#period 1-2
+#12/6/24
+#CFU 17
+
 import simplegui
 import math
                 

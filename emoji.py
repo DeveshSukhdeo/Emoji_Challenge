@@ -25,28 +25,28 @@ def all_false():
                     
 def toggle_face1():
         all_false()
-                global face1
-                face1 = not face1
+        global face1
+        face1 = not face1
                     
 def toggle_face2():
         all_false()
-                global face2
-                face2 = not face2
+        global face2
+        face2 = not face2
                       
 def toggle_face3():
         all_false()
-                global face3
-                face3 = not face3
+        global face3
+        face3 = not face3
                     
 def toggle_face4():
         all_false()
-                global face4
-                face4 = not face4
+        global face4
+        face4 = not face4
         
 def toggle_face5():
         all_false()
-                global face5
-                face5 = not face5
+        global face5
+        face5 = not face5
         
 #Syeda - Bottom Left Quadrant
         def draw_handler(canvas):

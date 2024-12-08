@@ -21,6 +21,7 @@ The element's size is 1/5 of the main element's size.
 In-code example: The following code shows how you use variables to keep an image stagnant with a change in dimensions. Also shows how a change in size affects output.
 
 '''
+    
     import simplegui
     
     #Global Variables

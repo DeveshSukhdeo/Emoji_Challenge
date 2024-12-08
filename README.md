@@ -22,7 +22,7 @@ In-code example: The following code shows how you use variables to keep an image
 
 import simplegui
 
-# Global Variables
+#Global Variables
 width = 400
 height = 400
 face_size = 100
@@ -57,11 +57,10 @@ def decrease_size():
     if face_size < 20:
         face_size = 20
 
-# Create a frame and assign callbacks to event handlers
 frame = simplegui.create_frame("Face Drawing", width, height)
 frame.set_draw_handler(draw)
 frame.add_button("Increase Size", increase_size, 100)
 frame.add_button("Decrease Size", decrease_size, 100)
 
-# Start the frame animation
+#Start the frame animation
 frame.start()

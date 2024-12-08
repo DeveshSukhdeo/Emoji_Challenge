@@ -19,7 +19,7 @@ The element is positioned 1/3 of the main element's size to the left and up from
 The element's size is 1/5 of the main element's size.
 
 In-code example: The following code shows how you use variables to keep an image stagnant with a change in dimensions. Also shows how a change in size affects output.
-
+'''
 import simplegui
 
 #Global Variables
@@ -64,3 +64,4 @@ frame.add_button("Decrease Size", decrease_size, 100)
 
 #Start the frame animation
 frame.start()
+'''

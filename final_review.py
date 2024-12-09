@@ -52,10 +52,10 @@ def draw_face(canvas, x, y, size, face_type):
         canvas.draw_polygon([(x - size/1.5, y + size/5), (x - size/3, y + size/2), (x + size/3, y + size/2), (x + size/1.5, y + size/5)], 1, "black", "white")
         canvas.draw_text("Devesh", (x - size/2, y + size*1.2), size/5, "white")
     elif face_type == 2:  # Towaf
-        canvas.draw_circle((x, y), size, 10, "Yellow", "Yellow")
-        canvas.draw_circle((x - size/3, y - size/3), size/4, 10, "Black")
-        canvas.draw_circle((x + size/3, y - size/3), size/4, 10, "Black")
-        canvas.draw_polygon([(x - size/2, y + size/2), (x + size/2, y + size/2), (x + size/2, y + size/6), (x - size/2, y + size/6)], 5, "Red")
+        canvas.draw_circle((x, y), size, 10, "Skyblue", "Skyblue")
+        canvas.draw_circle((x - size/3, y - size/3), size/4, 5, "Black")
+        canvas.draw_circle((x + size/3, y - size/3), size/4, 5, "Black")
+        canvas.draw_line((x - size/2, y + size/2), (x + size/2, y + size/2), 5, "Red")
         canvas.draw_text("Towaf", (x - size/3, y + size*1.2), size/5, "white")
     elif face_type == 3:  # Syeda
         canvas.draw_circle((x, y), size, 10, "#c0c0bf","#c0c0bf")

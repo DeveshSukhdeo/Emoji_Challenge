@@ -1,3 +1,7 @@
+# Devesh, Towaf, Micah, Syeda
+# Period 1-2
+# 12/9/24
+
 import simplegui
 
 # Global Variables

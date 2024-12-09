@@ -1,5 +1,4 @@
 import simplegui
-import math
 
 # Global Variables
 width = int(input("Pick a frame width between 200 to 600: "))
